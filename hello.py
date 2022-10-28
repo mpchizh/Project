@@ -28,11 +28,19 @@ print(guest[5])
 cut_list = 'К сожалению на пьянку могу позвать только двоих.'
 print(cut_list)
 no_alco = 'прости не могу позвать тебя на синеву(('
+guest0 = guest.pop(0)
+print(f'{guest0.title()},{no_alco}')
+guest0 = guest.pop(0)
+print(f'{guest0.title()},{no_alco}')
+guest0 = guest.pop(0)
+print(f'{guest0.title()},{no_alco}')
+guest0 = guest.pop(0)
+print(f'{guest0.title()},{no_alco}')
+print(guest)
+del guest[0]
+del guest[0]
+print(guest)
 
-not_list = guest.pop()
-print(f'{guest[0].title()} {no_alco}')
-not_list = guest.pop()
-print(f'{guest[1].title()} {no_alco}')
 
 
 
